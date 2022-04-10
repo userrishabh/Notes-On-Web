@@ -19,7 +19,7 @@
 </head>
 <body  background="back.jpg">
 <div id="d1" style=" width:100%; height:150; border-color:#CC3333;;">
-<a href="Home.php"><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">HOME</button></a>
+<a href="aftel.php"><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">HOME</button></a>
 <a href="ppts.php"><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">PPTs</button></a>
 <a href="model .html"><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">MODEL PAPER</button></a>
 <img src="Now logo.jpg" height="75" width="100" style=" margin-top:2; margin-left:100">
@@ -31,7 +31,7 @@
 </div><br><br><br>
 <h1><font color="black"><center><u>WELCOME STUDENTS</u></center></font></h1>
 <div style="background-color:black">
-<marquee behavior="scroll" scrollamount="10"><font color="white"><h3>YOU WILL GET UPDATED NOTE EVERY TIME ON<h3></font></marquee></div><br><br>
+<marquee behavior="scroll" scrollamount="10"><font color="white"><h3>YOU WILL GET UPDATED NOTE EVERY TIME<h3></font></marquee></div><br><br>
 <div>
 
   <img class="mySlides" src="4slide.jpg" style="width:1310; height:600; margin-left:80;">

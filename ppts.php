@@ -66,7 +66,7 @@ body{background-repeat:no-repeat; background-size:cover;}
   </div><br />
   <div >
 <a href="C.html"><button class="a" style="border-radius:30px; margin-left:50px; margin-top:50px; height:40; width:150"><b><font size="+5" color="#550055">C Programming</button></a>
-<a href="dbms.html"><button class="a" style="border-radius:30px; margin-left:50px; margin-top:50px; height:40; width:150"><b><font size="+5" color="#550055">RDBMS</button></a>
+<a href="dbms.php"><button class="a" style="border-radius:30px; margin-left:50px; margin-top:50px; height:40; width:150"><b><font size="+5" color="#550055">RDBMS</button></a>
 <a href="environment.html"><button class="a" style="border-radius:30px; margin-left:50px; margin-top:50px; height:40; width:150"><b><font size="+5" color="#550055">Environment</button></a>
 
   </div> 
