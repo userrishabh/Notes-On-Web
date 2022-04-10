@@ -1,0 +1,57 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>REGISTER</title>
+<link rel="icon" href="image 1.jpg">
+<style>
+body{background-image: url("register back.jpg");
+height: 100%;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#d1{border:2px solid #f1f1f1; border-radius:20px; border-color:#0033FF;}
+</style>
+</head>
+<body class="bg" ><div style="height:500; width:500; margin-left:1000;" id="d1">
+<form class="form" action="reg.php" method="post" enctype="multipart/form-data" autocomplete="off">
+<form  title="Register Here" action="Login.php"><br>
+<font size="+2">FIRST NAME:<br>
+<input style=" width:500; height:30; border-radius:10px;" type="text" maxlength="10" placeholder="Enter Your First Name" name="fname"required /><br />
+LAST NAME:<br>
+<input style=" width:500; height:30; border-radius:10px;" type="text"  placeholder="Enter Your Last Name" maxlength="10" name="lname"required /><br />
+Email:<br>
+<input style=" width:500; height:30; border-radius:10px;" type="email"  placeholder="Enter Email" maxlength="30" name="email"required><br>
+Password: <br>
+<input style=" width:500; height:30; border-radius:10px;" type="password" placeholder="Enter Password" id="myInput"  name="pass"required><br>
+CONTACT:<br>
+<input style=" width:500; height:30; border-radius:10px;" maxlength="10" placeholder="Enter Contact Number" name="contact"required/><br>
+DOB:<br>
+<input style=" width:500; height:30; border-radius:10px; "  maxlength="10"  name="dob" placeholder="dd/mm/yyyy"required><br>
+<input type="checkbox" onClick="myFunction()">Show Password<br><br>
+<center><input style="height:35; width:500; color:#FFFFFF; background-color:#FF0000; border-radius:10px;" type="submit" value="REGISTER" onClick="funct()"></center>
+</form></div> </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+</form>
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+<div style="background-color:#333333; height:320; border:medium; margin-top:5;">
+		<a href="Home.php"><abbr title="Notes On Web"><font style="margin-left:150;" size="+3" color="red">N<font color="#FFFFFF">O</font>W</font></font></abbr>
+		<font color="#FFFFFF" style="margin-top:30; writing-mode:vertical-rl; text-orientation:mixed;">welcome</font></a><br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Home.php"><font color="#FFFFFF">Home <sup>.</sup></font><font color="#FFFFFF"></a>Contact<sup>.</sup>Privacy Policy<sup>.</sup></font>
+		<img src="loc.jpg" height="30" width="30" style="margin-left:165"><font color="#FFFFFF">&nbsp;Lovely Professional University</img><br>
+		<img src="call.jpg" height="30" width="30" style="margin-left:524">&nbsp;6387602429, 6205264243, 9792947121</img><br>
+		<img src="mail.jpg" height="30" width="30" style="margin-left:524">&nbsp;chaurasiarishabh2@gmail.com</img></font>
+		<hr>
+		&nbsp;&nbsp;&nbsp;<font color="#FFFF00">Copyright (c) 2019 Copyright 'NOW' All Rights Reserved.</font>
+		<font color="#0066FF" style="margin-left:800"><abbr title="Rishabh Chaurasiya, Shiv Shankar, Mona Patel"><b>->Crafted By<-</b></abbr></font>
+		
+		</div>
+		</body>
+</html>

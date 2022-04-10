@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>HOME</title>
+<link rel="icon" href="image 1.jpg">
+  <style>
+  .a{border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.a:hover{background-color:black; color:white; box-shadow: 12 10px #666;}
+	</style>
+</head>
+<body  background="back.jpg">
+<div id="d1" style=" width:100%; height:150; border-color:#CC3333;;">
+<a href="page after log in.html"><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">HOME</button></a>
+<a href=""><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">PPTs</button></a>
+<a href=""><button class="a" style="border-radius:15px; margin-left:15; height:35; width:150">MODEL PAPER</button></a>
+<a href="Home.html"><img src="Now logo.jpg" height="75" width="100" style=" margin-top:2; margin-left:100"></a>
+
+<a href="Home.html"><font class="a" color="#FFFFFF" style="margin-left:10">LOG OUT</font></a>
+<br><br>
+<br><br>
+
+</div><br><br><br>
+<h1><font color="black"><center><u>WELCOME STUDENTS</u></center></font></h1>
+<div style="background-color:black">
+<marquee behavior="scroll" scrollamount="10"><font color="white"><h3>YOU WILL GET UPDATED NOTE EVERY TIME ON<h3></font></marquee></div><br><br>
+<div class="w3-content w3-display-container">
+
+  <img class="mySlides" src="4slide.jpg" style="width:1310; height:600; margin-left:15;">
+  <img class="mySlides" src="2slide.jpg" style="width:1310; height:600; margin-left:15;">
+  <img class="mySlides" src="3slide.jpg" style="width:1310; height:600; margin-left:15;">
+  <img class="mySlides" src="1slide.jpg" style="width:1310; height:600; margin-left:15;">
+  <img class="mySlides" src="5slide.jpg" style="width:1310; height:600; margin-left:15;">
+
+ <button style="margin-bottom:100;" class="w3-button w3-black w3-display-left" onClick="plusDivs(-1)">&#10094;</button> 
+  <button style="margin-bottom:100;" class="w3-button w3-black w3-display-right" onClick="plusDivs(1)">&#10095;</button>
+</div>
+
+<div style="float:left">
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+ <div style="background-color:#333333; height:320; border:medium; margin-top:5;">
+		<a href="Home.html"><abbr title="Notes On Web"><font style="margin-left:150;" size="+3" color="red">N<font color="#FFFFFF">O</font>W</font></font></abbr>
+		<font color="#FFFFFF" style="margin-top:30; writing-mode:vertical-rl; text-orientation:mixed;">welcome</font></a><br>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Home.html"><font color="#FFFFFF">Home <sup>.</sup></a><a href="">About<sup>.</sup></a>Contact<sup>.</sup>Privacy Policy<sup>.</sup></font>
+		<img src="loc.jpg" height="30" width="30" style="margin-left:120"><font color="#FFFFFF">&nbsp;Lovely Professional University</img><br>
+		<img src="call.jpg" height="30" width="30" style="margin-left:524">&nbsp;6387602429</img><br>
+		<img src="mail.jpg" height="30" width="30" style="margin-left:524">&nbsp;chaurasiarishabh2@gmail.com</img></font>
+		<hr>
+		&nbsp;&nbsp;&nbsp;<font color="#FFFF00">Copyright (c) 2019 Copyright EasyRent All Rights Reserved.</font>
+		<font color="#0066FF" style="margin-left:800"><abbr title="Mr.Rishabh Chaurasiya"><b>->Crafted By<-</b></abbr></font>
+		
+		</div>
+</html>
