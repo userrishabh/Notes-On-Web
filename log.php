@@ -19,7 +19,7 @@ else
 {
   echo ("<script LANGUAGE='JavaScript'>
       window.alert('Invalid Login.');
-     window.location.href='Home.php';
+     window.location.href='Login.php';
       </script>");
 exit();
 }
